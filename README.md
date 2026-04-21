@@ -1,5 +1,3 @@
-# Transcriptomics Project Deliverables
-
 ## Main submission files
 
 - Concise report: `report/assignment_report.md`
