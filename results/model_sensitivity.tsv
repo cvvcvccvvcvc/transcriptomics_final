@@ -1,0 +1,5 @@
+model	n_deg_fdr_0_05	n_up	n_down
+base	37	13	24
+scan_adjusted	26	11	15
+scanner_adjusted	17	9	8
+both_adjusted	16	8	8

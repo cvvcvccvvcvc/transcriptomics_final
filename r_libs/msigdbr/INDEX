@@ -1,0 +1,5 @@
+msigdbr                 Retrieve the gene sets data frame
+msigdbr_collections     List the collections available in the msigdbr
+                        package
+msigdbr_species         List the species available in the msigdbr
+                        package

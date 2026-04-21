@@ -1,0 +1,6 @@
+metric	value
+main_model	both_adjusted_scan_date_and_scanner
+genes_tested	13446
+DEGs_FDR_lt_0.05_total	16
+DEGs_FDR_lt_0.05_up	8
+DEGs_FDR_lt_0.05_down	8

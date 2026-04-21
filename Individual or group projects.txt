@@ -1,0 +1,48 @@
+#the individual variant may be just sent to me without public presentation, but before the 23.04!
+(in a form of a Report in pdf/pptx/Rmd/any + the .R code. The Report needs to have only the information of interest, while the
+R code needs to be full (in case of e.g. you didn't find something interesting via KEGG enrichment - so it's absent from the Report, 
+but must be in the code)). Add a brief description of the data used.
+
+#the group variant needs public presentation - by a single person or 
+you can divide the material into parts and make a group report.
+The report is like you'd do that on a conference (like e.g. BGRS) - a ppt presentation
+with graphics, schemes and maybe a few key phrases.
+An example structure of the report is:
+Slide 1: Title page, Transcriptomics project made by <...>
+2: A few words about the data - you may use for example the schematics 
+the authors of the data used in their publication, or draw something simple yourself - 
+just so that the listeners understand what's what 
+3-... : About the found DEGs, the enrichment plot and the pathway plot and a few words (the assumption).
+... : The data used for gene network construction (the network may be really big so no need to try to plot it.
+but in a case of not a big network - do it, it's a beautiful picture to show), the properties of network and 
+what you found using it.
+... : The co-expression analysis results (there is a plenty of graphics to show) and a few words
+about what it revealed.
+
+In a case of public presentation you don't have to sent anything, 
+but it would be useful to have a complete code of analysis near you - it'll help you 
+to answer questions if I'll have ones.
+
+
+#The individual variant:
+You may choose any data or a subset of data - 
+properly prepare it, perform PCA, 
+normalize, choose only one contrast to 
+define DEGs, analyze the DEGs:
+classify DEGs, do the enrichment analyses (do all possible, but focus on unexpected things),
+plot the pathway of interest (choose any that attracts you), 
+make some biological assumption.
+Don't forget to read about the data you are analyzing.
+
+#The variant for group of two:
+All the same (DEGs analysis of a single contrast), 
+but with gene network analysis added - which 
+imposes the requirements to the data - the data needs to have more 
+than one type of treatment, or needs to have cases of mutation and/or overexpression.
+The gene network analysis requires an individual biological assumption.
+
+
+#The variant for group of 3-5:
+All the same as with variant for group of 2, but +
+co-expression analysis and interpretation.
+

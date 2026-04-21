@@ -1,0 +1,41 @@
+Package: limma
+Version: 3.66.0
+Date: 2025-10-21
+Title: Linear Models for Microarray and Omics Data
+Description: Data analysis, linear models and differential expression
+        for omics data.
+Author: Gordon Smyth [cre,aut], Yifang Hu [ctb], Matthew Ritchie [ctb],
+        Jeremy Silver [ctb], James Wettenhall [ctb], Davis McCarthy
+        [ctb], Di Wu [ctb], Wei Shi [ctb], Belinda Phipson [ctb], Aaron
+        Lun [ctb], Natalie Thorne [ctb], Alicia Oshlack [ctb], Carolyn
+        de Graaf [ctb], Yunshun Chen [ctb], Goknur Giner [ctb], Mette
+        Langaas [ctb], Egil Ferkingstad [ctb], Marcus Davy [ctb],
+        Francois Pepin [ctb], Dongseok Choi [ctb], Charity Law [ctb],
+        Mengbo Li [ctb], Lizhong Chen [ctb]
+Maintainer: Gordon Smyth <smyth@wehi.edu.au>
+License: GPL (>=2)
+Depends: R (>= 3.6.0)
+Imports: grDevices, graphics, stats, utils, methods, statmod
+Suggests: BiasedUrn, ellipse, gplots, knitr, locfit, MASS, splines,
+        affy, AnnotationDbi, Biobase, BiocStyle, GO.db, illuminaio,
+        org.Hs.eg.db, vsn
+VignetteBuilder: knitr
+URL: https://bioinf.wehi.edu.au/limma/
+biocViews: ExonArray, GeneExpression, Transcription,
+        AlternativeSplicing, DifferentialExpression,
+        DifferentialSplicing, GeneSetEnrichment, DataImport, Bayesian,
+        Clustering, Regression, TimeCourse, Microarray, MicroRNAArray,
+        mRNAMicroarray, OneChannel, ProprietaryPlatforms, TwoChannel,
+        Sequencing, RNASeq, BatchEffect, MultipleComparison,
+        Normalization, Preprocessing, QualityControl,
+        BiomedicalInformatics, CellBiology, Cheminformatics,
+        Epigenetics, FunctionalGenomics, Genetics, ImmunoOncology,
+        Metabolomics, Proteomics, SystemsBiology, Transcriptomics
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2025-10-29 13:42:28 UTC
+RemoteUrl: https://github.com/bioc/limma
+RemoteRef: RELEASE_3_22
+RemoteSha: 1c4b97114f1fd662b4a4b609cba4ebab72654822
+NeedsCompilation: yes
+Packaged: 2026-02-27 07:23:17 UTC; root
+Built: R 4.5.2; aarch64-apple-darwin20; 2026-02-27 07:25:09 UTC; unix

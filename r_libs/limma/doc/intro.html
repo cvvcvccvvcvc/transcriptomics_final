@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="generator" content="r-universe/pandoc">
+      
+      
+      <title>A brief introduction to limma</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" data-external="1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" data-external="1">
+      <link rel="stylesheet" href="https://r-universe.dev/static/article-styles.css?nocache=1" data-external="1">
+   </head>
+   <body>
+      <div class="container" id="topcontainer">
+         <script>if (window.self != window.top) try {document.getElementById('topcontainer').className = "container-fluid article-in-iframe"; } catch(e) {}</script>
+
+         <div class="frontmatter">
+         <h1 class="title">A brief introduction to limma</h1>
+         </div>
+
+                  <div class="row">
+            <div class="col-xl-10"><div id="what-is-it" class="section level1">
+<h1>What is it?</h1>
+<p>Limma is an R package for the analysis of gene expression data,
+especially the use of linear models for analysing designed experiments
+and the assessment of differential expression. Limma provides the
+ability to analyse comparisons between many RNA targets simultaneously
+in arbitrary complicated designed experiments. Empirical Bayesian
+methods are used to provide stable results even when the number of
+arrays is small. The normalization and background correction functions
+are provided for microarrays and similar technologies. The linear model
+and differential expression functions apply to a wide variety of gene
+expression technologies including microarrays (single-channel or
+two-color), quantitative PCR, RNA-seq or proteomics.</p>
+</div>
+<div id="how-to-get-help" class="section level1">
+<h1>How to get help</h1>
+<p>The edgeR User’s Guide is available by</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">library</span>(limma)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">limmaRUsersGuide</span>()</span></code></pre></div>
+<p>or alternatively from the <a href="https://bioconductor.org/packages/limma">limma landing
+page</a>.</p>
+<p>Documentation for specific functions is available through the usual R
+help system, e.g., <code>?lmFit</code>. Further questions about the
+package should be directed to the <a href="https://support.bioconductor.org">Bioconductor support
+site</a>.</p>
+</div>
+<div id="further-reading" class="section level1">
+<h1>Further reading</h1>
+<p>Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W, Smyth GK (2015).
+limma powers differential expression analyses for RNA-sequencing and
+microarray studies. <em>Nucleic Acids Research</em> 43, e47. <a href="https://doi.org/10.1093/nar/gkv007">doi:10.1093/nar/gkv007</a></p>
+<p>Phipson B, Lee S, Majewski IJ, Alexander WS, and Smyth GK (2016).
+Robust hyperparameter estimation protects against hypervariable genes
+and improves power to detect differential expression. <em>Annals of
+Applied Statistics</em> 10, 946-963. <a href="10.1214/16-AOAS920">doi:10.1214/16-AOAS920</a></p>
+<p>Law CW, Chen Y, Shi W, Smyth GK (2014). Voom: precision weights
+unlock linear model analysis tools for RNA-seq read counts. Genome
+Biology 15, R29. <a href="https://doi.org/10.1186/gb-2014-15-2-r29">doi:10.1186/gb-2014-15-2-r29</a>.
+See also the Preprint Version at <a href="https://gksmyth.github.io/pubs/VoomPreprint.pdf" class="uri">https://gksmyth.github.io/pubs/VoomPreprint.pdf</a>
+incorporating some notational corrections.</p>
+<p>Law CW, Alhamdoosh M, Su S, Dong X, Tian L, Smyth GK, Ritchie ME
+(2016). RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR.
+<em>F1000Research</em> 5, 1408. <a href="https://doi.org/10.12688/f1000research.9005.3">doi:10.12688/f1000research.9005.3</a></p>
+<p>Law CW, Zeglinski K, Dong X, Alhamdoosh M, Smyth GK, Ritchie ME
+(2020). A guide to creating design matrices for gene expression
+experiments. <em>F1000Research</em> 9, 1444. <a href="https://doi.org/10.12688/f1000research.27893.1">doi:10.12688/f1000research.27893.1</a></p>
+</div></div>
+            <div class="d-none d-xl-block col-xl-2 bd-toc">
+               <ul class="section-nav">
+                  <li class="toc-entry"><ul>
+<li><a href="#what-is-it" id="toc-what-is-it">What is it?</a></li>
+<li><a href="#how-to-get-help" id="toc-how-to-get-help">How to get
+help</a></li>
+<li><a href="#further-reading" id="toc-further-reading">Further
+reading</a></li>
+</ul></li>
+               </ul>
+            </div>
+         </div>
+               </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js" data-external="1"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" data-external="1"></script>
+      <script src="https://r-universe.dev/static/article.js" data-external="1"></script>
+
+      <!-- Mathjax -->
+      <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" data-external="1"></script> -->
+      <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.0.0/tex-mml-chtml.min.js" data-external="1"></script>
+   </body>
+</html>

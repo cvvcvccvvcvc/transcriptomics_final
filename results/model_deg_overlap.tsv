@@ -1,0 +1,17 @@
+model_1	model_2	overlap_n	union_n	jaccard
+base	base	37	37	1
+base	scan_adjusted	26	37	0.702702702702703
+base	scanner_adjusted	17	37	0.45945945945946
+base	both_adjusted	16	37	0.432432432432432
+scan_adjusted	base	26	37	0.702702702702703
+scan_adjusted	scan_adjusted	26	26	1
+scan_adjusted	scanner_adjusted	17	26	0.653846153846154
+scan_adjusted	both_adjusted	16	26	0.615384615384615
+scanner_adjusted	base	17	37	0.45945945945946
+scanner_adjusted	scan_adjusted	17	26	0.653846153846154
+scanner_adjusted	scanner_adjusted	17	17	1
+scanner_adjusted	both_adjusted	15	18	0.833333333333333
+both_adjusted	base	16	37	0.432432432432432
+both_adjusted	scan_adjusted	16	26	0.615384615384615
+both_adjusted	scanner_adjusted	15	18	0.833333333333333
+both_adjusted	both_adjusted	16	16	1
